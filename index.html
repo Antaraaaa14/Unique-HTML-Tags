@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Explore the Hidden Power of HTML</title>
+
+    <style>
+        body {
+            background-color: #f0f0f0;
+            font-family: Arial;
+        }
+
+        .container {
+            width: 800px;
+            margin: auto;
+            background-color: white;
+            padding: 20px;
+            border: 2px solid #ccc;
+        }
+
+        .box {
+            border: 1px solid #aaa;
+            padding: 15px;
+            margin-bottom: 15px;
+            background-color: #fafafa;
+        }
+
+        kbd {
+            border: 1px solid black;
+            padding: 3px;
+            background-color: #ddd;
+        }
+
+        portal {
+            display: block;
+            height: 120px;
+            border: 1px solid black;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1 align="center"> Explore the Hidden Power of HTML</h1>
+
+    <div class="box">
+        <h3>Keyboard Tag</h3>
+        <p>
+            To save your work, press <kbd>Ctrl</kbd> + <kbd>S</kbd>.
+        </p>
+    </div>
+
+    <div class="box">
+        <h3>Citation Tag</h3>
+        <p>
+            I like reading the book <cite>Wings of Fire</cite>.
+        </p>
+    </div>
+
+    <div class="box">
+        <h3>Word Break Tag</h3>
+        <p>
+            This is a long word used in web pages:
+            hypertextcommunication<wbr>technology
+        </p>
+    </div>
+
+    <div class="box">
+        <h3>Slot Tag</h3>
+        <p>
+            The slot tag is used to display default content.
+        </p>
+        <slot>This is slot default content</slot>
+    </div>
+
+</div>
+
+</body>
+</html>
